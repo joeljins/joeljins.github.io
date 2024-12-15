@@ -1,0 +1,43 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.tab {
+    float: right;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    margin-right: 10px;
+
+  }
+
+  .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column; /* This stacks the buttons vertically */
+    align-items: flex-start; /* Adjust alignment if needed */
+  }
+
+  .dropdown-content a:hover {
+    background-color: gray;
+  }
