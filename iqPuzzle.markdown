@@ -6,6 +6,9 @@ permalink: /iq_puzzle/
 
 ## Solving the IQ Puzzle
 <br>
+*Source [code](https://github.com/joeljins/iq_puzzle_solutions) kept private to respect Drexel's academic integrity policies.*
+
+<br>
 Explanation of the [game](https://blog.crackerbarrel.com/2021/08/13/how-to-beat-the-cracker-barrel-peg-game/):
 
 > Sometimes referred to as “Peg Solitaire” or “Hi-Q”, this simple game has been entertaining our guests for decades, plus it’s a great way to give your noggin a mini workout.  
@@ -25,7 +28,7 @@ Explanation of the [game](https://blog.crackerbarrel.com/2021/08/13/how-to-beat-
 > But leave four pegs, and sorry, but you are an “EQ-NO-RA-MOOOSE.” (it’s all in good fun – no judgement here!)
 
 <br>
-In an assignment exploring artificial intelligence in games, I was provided with a module to run the IQ puzzle game. Each possible grid arrangement is represented as a node, and each node points to the previous grid arrangement that led to the current configuration.
+I was provided with a module to run the IQ puzzle game. Each possible grid arrangement is represented as a node, and each node points to the previous grid arrangement that led to the current configuration.
 
 The search algorithm maintains two lists: open nodes (those yet to be explored) and closed nodes (those that have already been explored). For each node in the open list, the result of each legal move is added to the end of the open list.
 
