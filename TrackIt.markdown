@@ -1,14 +1,20 @@
 ---
 layout: default
 title: TrackIt 
-permalink: /TrackIt/
+permalink: /trackIt/
 ---
 
-Go directly to [TrackIt!](https://joeljins.pythonanywhere.com/) \| [Github](https://github.com/joeljins/TrackIt)
+Go to [TrackIt!](https://joeljins.pythonanywhere.com/) \| [Github](https://github.com/joeljins/TrackIt)
 
 <br>
-## What is TrackIt! ?
-TrackIt! is a web application that allows users to access gaming data by entering their identifiers. It uses the given identifier to perform API calls to the respective platform, parses the response data, and dynamical renders it to the website. Currently, it has support for Steam, Valorant, and League Of Legends.
+## What is TrackIt!?
+**TrackIt!** is a web application that allows users to access gaming data by entering their identifiers. It uses the given identifier to perform API calls to the respective platform, parses the response data, and dynamically renders it to the website. Currently, it has support for Steam, Valorant, and League Of Legends.
+
+### Key Features:
+
+- **Steam**: Find all the games you own, the playtime of each game, and total achievements completed.
+- **Valorant**: Find your player banner, profile picture, current and peak ranks, and KDA (Kill/Death/Assist) for each mode you've played.
+- **League of Legends**: Find your profile picture, summoner level, and champion mastery data for each champion.
 
 <br>
 ## A Short Demo:
@@ -16,10 +22,19 @@ TrackIt! is a web application that allows users to access gaming data by enterin
 
 <br>
 ## Skills:
-Programming Languages: Python, HTML, CSS
+- **Programming Languages**:
+  - Python
+  - HTML
+  - CSS
 
-Frameworks: Flask (web development), Jinja2 (templating)
+- **Frameworks**:
+  - Flask (Web development)
+  - Jinja2 (Templating)
 
-Version Control: Git, GitHub
+- **Version Control**:
+  - Git
+  - GitHub
 
-Deployment Tools: PythonAnywhere (cloud deployment)
+- **Deployment Tools**:
+  - PythonAnywhere (Cloud deployment)
+
