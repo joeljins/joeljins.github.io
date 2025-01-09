@@ -4,14 +4,12 @@ title: Home
 permalink: /
 ---
 
-# Hi, I'm Joel
-[Resume]() | [Github]() | email | Linkedin
+Hi, I'm Joel
+
+My [Resume]()
 
 <br>
-## Skills:
-
-<br>
-### Languages
+Skills:
 <div>
   <style>
     .flex-container {
@@ -41,68 +39,6 @@ permalink: /
     <img src="https://th.bing.com/th/id/OIP.LtHBzgnTdZu8IMEp9R9yWAHaHa?rs=1&pid=ImgDetMain" width="100" height="100" alt="HTML5">
     <img src="https://clipartcraft.com/images/html5-logo-vector-4.png" width="95" height="95" alt="HTML">
     <img src="https://logospng.org/download/css-3/logo-css-3-2048.png" width="110" height="100" alt="CSS">
-  </div>
-</div>
-
-<br>
-## Projects
-
-View source code and a quick explanation of each from the tabs on the nav bar!
-
-<div id="container">
-  <style>
-    #container {
-      display: flex;
-      flex-direction: row;
-      gap: 20px; /* Adds space between the sections */
-    }
-
-    #container div {
-      padding: 10px;
-      #border: 1px solid #ccc;
-      width: 300px; /* Adjust the width of each section */
-    }
-
-    ul {
-      list-style-type: square; /* Square bullet points */
-      margin-left: 20px; /* Indentation */
-      padding-left: 0; /* Remove extra padding for lists */
-    }
-
-    li {
-      margin-bottom: 5px; /* Add space between list items */
-    }
-  </style>
-  <div>
-    <h4>Web Development</h4>
-    <ul>
-      <li>TrackIt</li>
-      <li>Shelved</li>
-      <li>Music Player</li>
-    </ul>
-  </div>
-
-  <div>
-    <h4>AI</h4>
-    <ul>
-      <li>IQ Puzzle</li>
-      <li>Connect 3</li>
-      <li>Frogger</li>
-    </ul>
-  </div>
-
-  <div>
-    <h4>Machine Learning</h4>
-    <ul>
-      <li>Classifier</li>
-    </ul>
-  </div>
-
-  <div>
-    <h4>Software</h4>
-    <ul>
-      <li>Model Bank</li>
-    </ul>
   </div>
 </div>
 
