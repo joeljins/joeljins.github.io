@@ -22,7 +22,6 @@ Skills:
     <img src="https://2.bp.blogspot.com/-UICquv1dBMU/XGYIXqyhKeI/AAAAAAAAR8M/Evjt3ADUYEYqwDHPLhl_lK5_FTrb_VZpgCLcBGAs/s1600/Java.png" width="150" height="100" alt="Java">
     <img src="https://cms-informatic.com/wp-content/uploads/2020/01/logo-langage-C-830x830.png" width="100" height="100" alt="C">
     <img src="https://logos-world.net/wp-content/uploads/2023/02/JavaScript-Emblem.png" width="190" height="100" alt="JavaScript">
-    <img src="https://th.bing.com/th/id/OIP.OTjg4nh8v0I6tbUvKXkr3wHaJI?rs=1&pid=ImgDetMain" width="80" height="100" alt="Other">
   </div>
 </div>
 <br>
@@ -32,13 +31,13 @@ Skills:
     .flex-container-gap {
       display: flex;
       flex-direction: row;
-      gap: 20px; /* Adds space between images */
+      gap: 30px; /* Adds space between images */
     }
   </style>
   <div class="flex-container-gap">
-    <img src="https://th.bing.com/th/id/OIP.LtHBzgnTdZu8IMEp9R9yWAHaHa?rs=1&pid=ImgDetMain" width="100" height="100" alt="HTML5">
-    <img src="https://clipartcraft.com/images/html5-logo-vector-4.png" width="95" height="95" alt="HTML">
-    <img src="https://logospng.org/download/css-3/logo-css-3-2048.png" width="110" height="100" alt="CSS">
+    <img src="https://logodix.com/logo/542233.png" width="100" height="100" alt="SQL">
+    <img src="https://wikiwandv2-19431.kxcdn.com/_next/image?url=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Racket-logo.svg/640px-Racket-logo.svg.png&w=640&q=50" width="90" height="90" alt="SQL">
+    <img src="https://clipartcraft.com/images/html5-logo-vector-4.png" width="90" height="90" alt="HTML">
+    <img src="https://logospng.org/download/css-3/logo-css-3-2048.png" width="100" height="100" alt="CSS">
   </div>
 </div>
-
