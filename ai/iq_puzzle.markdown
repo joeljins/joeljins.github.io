@@ -1,7 +1,7 @@
 ---
 layout: default
 title: IQ Puzzle 
-permalink: /iq_puzzle/
+permalink: /iq_puzzle
 ---
 
 ## Solving the IQ Puzzle
@@ -44,19 +44,19 @@ Run the following commands to show the optimal solutions and the number of paths
 ```
 python3 search.py bfs
 ```
-![IQ Puzzle](\assets\images\iq_puzzle_bfs.png)
+![IQ Puzzle](\assets\images\iq_puzzle\iq_puzzle_bfs.png)
 
 
 ```
 python3 search.py dfs
 ```
-![IQ Puzzle](\assets\images\iq_puzzle_dfs.png)
+![IQ Puzzle](\assets\images\iq_puzzle\iq_puzzle_dfs.png)
 
 
 ```
 python3 search.py a_star
 ```
-![IQ Puzzle](\assets\images\iq_puzzle_a_star.png)
+![IQ Puzzle](\assets\images\iq_puzzle\iq_puzzle_a_star.png)
 
 
 All other commands are invalid. 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Connect 3 
-permalink: /connect_3/
+permalink: /connect_3
 ---
 ## Creating the Optimal Connect 3 Agent
 <br>

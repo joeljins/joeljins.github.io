@@ -1,7 +1,7 @@
 ---
 layout: default
 title: TrackIt 
-permalink: /trackIt/
+permalink: /trackIt
 ---
 
 Go to [TrackIt!](https://joeljins.pythonanywhere.com/) \| [Github](https://github.com/joeljins/TrackIt)

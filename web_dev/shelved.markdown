@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Shelved 
-permalink: /shelved/
+permalink: /shelved
 ---
 
 Go to [Shelved](Shelved.top) \| [Github](https://github.com/joeljins/Shelved)
