@@ -4,7 +4,7 @@ title: Music App
 permalink: /music_app/
 ---
 
-Go to [Shelved](Shelved.top) \| [Github](https://github.com/joeljins/Shelved)
+Go to [Github](https://github.com/joeljins/music_app)
 
 <br>
 ## What is the Music App?
@@ -36,8 +36,7 @@ The **Music App** is a web application that serves as a Spotify clone. It allows
   - Node.js (Web development)
 
 - **Version Control**:
-  - Git
   - GitHub
 
 - **Deployment Tools**:
-  - Local Host 
+  - Express Local Host 

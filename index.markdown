@@ -5,7 +5,7 @@ permalink: /
 ---
 
 # Hi, I'm Joel
-[Resume]() | [Github]() | email | Linkedin
+[Resume]() | [Github]() | jj3249@drexel.edu | Linkedin
 
 <br>
 ## Skills:
