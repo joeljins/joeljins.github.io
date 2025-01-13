@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Music App 
-permalink: /music_app
+permalink: /music_app/
 ---
 
 Go to [Shelved](Shelved.top) \| [Github](https://github.com/joeljins/Shelved)
