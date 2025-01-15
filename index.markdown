@@ -4,8 +4,8 @@ title: Home
 permalink: /
 ---
 
-# Hi, I'm Joel
-[Resume]({{ site.url }}{{ site.baseurl }}/Resume) | [Github]() | jj3249@drexel.edu | Linkedin
+# Hi, I'm Joel ...
+Resume: [View]({{ site.url }}{{ site.baseurl }}/Resume) or [Download](https://drive.google.com/file/d/19Mc7rU5IDWLtJjA82fe8mdNtJsYv2Mtz/view?usp=drive_link){:target="_blank"} | [Github](https://github.com/joeljins) | Email: jj3249@drexel.edu | [Linkedin](https://www.linkedin.com/in/joel-jins-2a5b77278/)
 
 <br>
 ## Skills:
