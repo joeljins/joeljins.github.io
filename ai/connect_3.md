@@ -39,13 +39,29 @@ This agent chooses the optimal column using the minimax algorithm.
 
 ### How the Minimax Algorithm Works:
 
--> A tree is used to represent the game, where each edge represents a legal move, and each node represents the resulting state from the legal move. 
+<style>
+ul {
+      list-style-type: square; /* Square bullet points */
+      margin-left: 20px; /* Indentation */
+      padding-left: 0; /* Remove extra padding for lists */
+    }
+</style>
 
--> There are two players, the maximizer and the minimizer. The maximizing player, the current player/agent, chooses the move that will result in the best possible outcome. The minimizing player, or the opponent, chooses the move that will result in the worst possible outcome for the maximizing player. 
+<ul>
+    <li>
+A tree is used to represent the game, where each edge represents a legal move, and each node represents the resulting state from the legal move.
+    </li>
+    
+    <li>
+There are two players, the maximizer and the minimizer. The maximizing player, the current player/agent, chooses the move that will result in the best possible outcome. The minimizing player, or the opponent, chooses the move that will result in the worst possible outcome for the maximizing player. 
+    </li>
 
--> Each state is assigned a score. A winning state usually results in a high score, and a losing state results in a low score. To evaluate none winning/losing states, there are other metrics. For Connect 3, this could be the number of actions, where more actions result in a lower score. 
+    <li>
+Each state is assigned a score. A winning state usually results in a high score, and a losing state results in a low score. To evaluate none winning/losing states, there are other metrics. For Connect 3, this could be the number of actions, where more actions result in a lower score. 
+    </li>
 
--> Using recursion, the row of nodes are evaluated, and the greatest value is chosen as the next move. 
-
-
+    <li>
+    Using recursion, the row of nodes are evaluated, and the greatest value is chosen as the next move. 
+    </li>
+</ul>
 
