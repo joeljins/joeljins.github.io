@@ -1,7 +1,7 @@
-
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.0.0/marked.min.js"></script>
   <style>
     .box {
       border: 1px solid #ccc;
@@ -24,7 +24,7 @@
       fetch(file)
         .then(res => res.text())
         .then(text => {
-          document.getElementById("box").innerHTML = text;
+          document.getElementById("box").innerHTML = marked.parse(text);
         });
     }
   </script>
