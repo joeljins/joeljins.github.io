@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,29 +9,23 @@
       margin-top: 1rem;
       min-height: 80px;
     }
-
-    .active {
-      background: #eef;
-    }
   </style>
 </head>
 <body>
 
-  <button onclick="load('content1')">Button 1</button>
-  <button onclick="load('content2')">Button 2</button>
-  <button onclick="load('content3')">Button 3</button>
+  <button onclick="load('commands/java.md')">Java</button>
+  <button onclick="load('content2.md')">Button 2</button>
+  <button onclick="load('content3.md')">Button 3</button>
 
   <div class="box" id="box">Click a button...</div>
 
   <script>
-    const content = {
-      content1: "This is the first prewritten content.",
-      content2: "This is the second prewritten content.",
-      content3: "This is the third prewritten content.",
-    };
-
-    function load(key) {
-      document.getElementById("box").innerHTML = content[key];
+    function load(file) {
+      fetch(file)
+        .then(res => res.text())
+        .then(text => {
+          document.getElementById("box").innerHTML = text;
+        });
     }
   </script>
 
